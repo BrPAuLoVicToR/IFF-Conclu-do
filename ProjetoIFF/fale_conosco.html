@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Green Garden</title>
+  <meta charset="utf-8"></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body >
+<body style="height:1500px">
+<div class="container" style="margin-top:50px">
+  <h1>Suporte</h1>
+  <div class="row">
+    <div class="col-md-4">
+  </div>
+</div>
+
+<div class="container mt-3">
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Seu email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Sua senha" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> lembre-se
+      </label>
+    </div>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h3>Como podemos ajudar ?</h3><br>
+    <div class="mb-3 mt-3">
+      <label for="comment">Comentário:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div><br>
+
+<div>
+    <button class="btn btn-primary" onclick="mostrarAlerta()">Enviar</button>
+
+<script>
+  function mostrarAlerta() {
+    alert("Enviado!");
+  }
+</script>
+</div>
+
+<style>
+  .btn-hover:hover{
+      background-color:#ffffff;
+      color:white!important;
+  }
+  .card > img {
+      height:250px;
+  }
+  .card{
+      height:630px;
+  }
+
+  /* Custom CSS for background image */
+  body {
+  background-image: url("images/Fundo FC.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0px;
+  }
+
+  /* Style for the content */
+  .content {
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to improve readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+</style>
+
+<script src="js/js.js"></script>
+</body>
